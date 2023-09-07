@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    min-height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 80px;
+}
+
+.heroImage {
+    object-fit: cover;
+    object-position: center;
+}
+
+.Content {
+    position: absolute;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+}
+
+.Content h1 {
+    font-size: 65px;
+}
+
+.Content p {
+    margin-block: 20px;
+}
+
+.Content button {
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: black;
+    transition: 400ms all ease-in-out;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: transparent;
+}

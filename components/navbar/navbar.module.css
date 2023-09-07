@@ -1,0 +1,29 @@
+.container {
+    background-color: black;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    /* z-index: 999; */
+}
+
+.logo {
+    font-size: 40px;
+    cursor: pointer;
+}
+.iconsContainer {
+    display: flex;
+    gap: 20px;
+}
+.icons {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: burlywood;
+}
